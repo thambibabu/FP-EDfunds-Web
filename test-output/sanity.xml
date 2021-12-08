@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.financepeer.testcases.EdinfinityTest"/>
+      <class name="com.financepeer.testcases.InstitutePageTest"/>
+      <class name="com.financepeer.testcases.UVACardPageTest"/>
+      <class name="com.financepeer.base.TestBase"/>
+      <class name="com.financepeer.testcases.applicationsCreationTest"/>
+      <class name="com.financepeer.testcases.SignUpPageTest"/>
+      <class name="com.financepeer.testcases.StudentPageTest"/>
+      <class name="com.financepeer.testcases.LoginPageTest"/>
+      <class name="com.financepeer.testcases.ContactUsPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
